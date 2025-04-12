@@ -1,0 +1,41 @@
+* {
+    text-align: center;
+    align-items: center;
+
+}
+
+
+table {
+    margin: 0 auto; /* Centraliza a tabela inteira na tela */
+}
+
+th, td {
+    text-align: center; /* Centraliza o conteúdo dentro das células */
+    padding: 8px;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Fundo para a página inicial */
+  body.home {
+    background-image: url('img/home.jpg');
+  }
+  
+  /* Fundo para a página de pizzas */
+  body.pizzas {
+    background-image: url('../img/pizza.jpg');
+  }
+  
+  /* Fundo para a página de vinhos */
+  body.vinhos {
+    background-image: url('../img/vinhos.jpg');
+}
